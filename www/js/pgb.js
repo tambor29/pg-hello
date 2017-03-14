@@ -20,3 +20,12 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+	info = 'Imie: Damian' +
+		   'Nazwisko: Gajda' +
+		   'Wiek: 22' +
+		   'Telefon: 123456789' ;
+		   
+	navigator.notification.alert(info);
+}
